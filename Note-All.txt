@@ -35,12 +35,12 @@ C:\BaoNT1\AWS-Devop\study-udacity-devop-p2>aws cloudformation update-stack --sta
 }
 
 Delete stack 
-` aws cloudformation delete-stack --stack-name CFBaoP2Web
+  aws cloudformation delete-stack --stack-name CFBaoP2Web
 
 ==========
 Create wweb
 ./create.bat CFBaoP2Web servers.yml server-parameters.json
-./update.bat CFBaoP2Web2 servers.yml server-parameters.json
+./update.bat CFBaoP2Web servers.yml server-parameters.json
 
 ====Output
 C:\BaoNT1\AWS-Devop\study-udacity-devop-p2>aws cloudformation create-stack --stack-name CFBaoP2Web --template-body file://servers.yml  --parameters file://server-parameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
@@ -52,3 +52,34 @@ C:\BaoNT1\AWS-Devop\study-udacity-devop-p2>aws cloudformation create-stack --sta
       #KeyName: VocareumKey2
 cd /var/www/html
           echo "Udacity Demo Web Server Up and Running!" > index.html 
+		  
+		  
+		  
+		  
+====================
+
+Connect ec2 private
+
+34.206.64.246
+
+
+===
+sudo chmod 700 private-server-devops-key.pem
+ssh ec2-user@34.206.64.246 -i private-server-devops-key.pem
+
+
+--copy file to server
+scp -i private-server-devops-key.pem private-server-devops-key.pem ec2-user@34.206.64.246:/home/ec2-user/private-server-devops-key.pem
+
+
+Private Server 1
+10.0.2.166
+Private Server 2
+10.0.3.223
+Private Server 3
+10.0.3.63
+
+From server JumpBox ssh to server Private
+	ssh -i private-server-devops-key.pem ubuntu@10.0.2.148
+	ssh -i private-server-devops-key.pem ubuntu@10.0.3.213
+	ssh -i private-server-devops-key.pem ubuntu@10.0.3.76
