@@ -1,0 +1,54 @@
+ASIA2HTEWAEUKCNR2VOW
+
+V1qs42ND8omW2pm4Z9ch+IAySJZY3WXrjmFS8dH0
+
+FwoGZXIvYXdzECwaDFPQnXkmq/FLq8cEhSLVAUwC8wKinuB8IO6sMlo3erj9T/6ADz2cbdViZlOE7q7TPMtA+BHzl2BkAGez1l+sP1VVCJzObkE3qYiTU+8rdFo1GqOpdLoAouKYS4Eue6zb8SKF8tId1SiAJoDEQuPk1+B8w/maoGd+BYgfS+pyXRIgM4rHDYE5wl4UJXheOmP5T1Exyzp3EBQ2Y2dZHPqq5hdo2yetO3Plqs1+9qxMfIiVTm42D+O74mcMBoQoOYFfVrZCmDZq5mK6ossg8lQk/FqTfxT96XQ9KhqT3X6cVALC+iX9TCiHqNyXBjItw/sh6WsJg/W6cu+TBoUcgn4Dw7ooXWFrevFmPaMeoIOfMa8fDVKcfUUSIGhW
+
+== Acount login 1
+User name	Password	Access key ID	Secret access key	Console login link
+devops-bao-p2		AKIA2HTEWAEUDOZAWQ5N	tSeXHwvH3uu8tDx64MJ+F3BLKZGrjKDIVpuXENOt	https://703512052008.signin.aws.amazon.com/console
+
+
+
+=====================Project 2
+
+Create cloudformation
+	./create.bat CFBaoP2 network.yml network-parameters.json
+	
+====Output
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:703512052008:stack/CFBaoP2/e2f125c0-1ab9-11ed-b185-122f59f67635"
+}
+
+{
+    "StackId": "arn:aws:cloudformation:us-west-2:982675634385:stack/CFBaoP2/e917c5a0-1ab7-11ed-a7c7-06cce83786c9"
+}
+
+
+Update cloudformation
+	./update.bat CFBaoP2 network.yml network-parameters.json
+	
+====Output
+C:\BaoNT1\AWS-Devop\study-udacity-devop-p2>aws cloudformation update-stack --stack-name CFBaoP2 --template-body file://servers.yml  --parameters file://server-parameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:703512052008:stack/CFBaoP2/e2f125c0-1ab9-11ed-b185-122f59f67635"
+}
+
+Delete stack 
+` aws cloudformation delete-stack --stack-name CFBaoP2Web
+
+==========
+Create wweb
+./create.bat CFBaoP2Web servers.yml server-parameters.json
+./update.bat CFBaoP2Web2 servers.yml server-parameters.json
+
+====Output
+C:\BaoNT1\AWS-Devop\study-udacity-devop-p2>aws cloudformation create-stack --stack-name CFBaoP2Web --template-body file://servers.yml  --parameters file://server-parameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:703512052008:stack/CFBaoP2Web/7504d920-1add-11ed-843e-0e407e8ba1c9"
+}
+
+
+      #KeyName: VocareumKey2
+cd /var/www/html
+          echo "Udacity Demo Web Server Up and Running!" > index.html 
