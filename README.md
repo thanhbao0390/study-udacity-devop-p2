@@ -24,10 +24,10 @@ Delete stack
 
 
 ### Architecture
-    ![Architecture  Image](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png | width=100)
+    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png"></img>
 
 ### Evidence CloudFormation stack
-    ![CloudFormation  Image](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png | width=100)
+    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png"></img>
 
 ### Output
-    ![Output  Image](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png | width=100)
+    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png"></img>
