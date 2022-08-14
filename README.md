@@ -1,33 +1,33 @@
 ### Project Title - Deploy a high-availability web app using CloudFormation
 Create cloudformation
-	./create.bat CFBaoP2 network.yml network-parameters.json
+	<code>./create.bat CFBaoP2 network.yml network-parameters.json</code>
 	
 Update cloudformation
-	./update.bat CFBaoP2 network.yml network-parameters.json
+	<code>./update.bat CFBaoP2 network.yml network-parameters.json</code>
 	
 Delete stack 
-    aws cloudformation delete-stack --stack-name CFBaoP2
+    <code>aws cloudformation delete-stack --stack-name CFBaoP2</code>
 
 
 Create wweb
-    ./create.bat CFBaoP2Web servers.yml server-parameters.json
+    <code>./create.bat CFBaoP2Web servers.yml server-parameters.json</code>
 
 	
 Update cloudformation
-    ./update.bat CFBaoP2Web servers.yml server-parameters.json
+    <code>./update.bat CFBaoP2Web servers.yml server-parameters.json</code>
 	
 Delete stack 
-    aws cloudformation delete-stack --stack-name CFBaoP2Web
+    <code>aws cloudformation delete-stack --stack-name CFBaoP2Web</code>
 
 ### URL
-    ![](http://cfbao-webap-1v5d8i1zi8vr0-1177904550.us-east-1.elb.amazonaws.com/ | width=100)
+    ![](http://cfbao-webap-1v5d8i1zi8vr0-1177904550.us-east-1.elb.amazonaws.com/)
 
 
 ### Architecture
-    ![](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/InstagramWebApp.png | width=100)
+    ![Architecture  Image](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/InstagramWebApp.png | width=100)
 
 ### Evidence CloudFormation stack
-    ![](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/CloudFormation-Stack.png | width=100)
+    ![CloudFormation  Image](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/CloudFormation-Stack.png | width=100)
 
 ### Output
-    ![](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/Output.png | width=100)
+    ![Output  Image](https://github.com/thanhbao0390/study-udacity-devop-p2/blob/main/Output.png | width=100)
