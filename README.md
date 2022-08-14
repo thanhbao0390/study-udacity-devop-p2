@@ -18,3 +18,13 @@ Update cloudformation
 	
 Delete stack 
     aws cloudformation delete-stack --stack-name CFBaoP2Web
+
+### URL
+    http://cfbao-webap-1ww4lp4w137fu-536422569.us-east-1.elb.amazonaws.com/
+
+
+### Architecture
+    InstagramWebApp.png
+
+### Evidence CloudFormation stack
+    CloudFormation-Stack.png
