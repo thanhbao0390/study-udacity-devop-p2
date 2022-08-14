@@ -54,9 +54,8 @@ Resources:
           sudo apt-get update -y
           sudo apt-get install apache2 -y
           sudo systemctl start apache2.service
-          sudo cd /var/www/html
-          sudo echo "It works!! BaoNT" > index.html
-          sudo systemctl restart apache2.service
+          cd /var/www/html
+          echo "It works!! BaoNT" > index.html
      
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console. 
       #ami-0747bdcabd34c712a
