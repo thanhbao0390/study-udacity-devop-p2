@@ -1,4 +1,4 @@
-<html>
+
 ### Project Title - Deploy a high-availability web app using CloudFormation
 Create cloudformation
 	<code>./create.bat CFBaoP2 network.yml network-parameters.json</code>
@@ -25,13 +25,12 @@ Delete stack
 
 
 ### Architecture
-    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png"></img>
+    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png)
 
 ### Evidence CloudFormation stack
-    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png"></img>
+    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png)
 
 ### Output
-    <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png"></img>
+    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png)
 
 
-</html>
