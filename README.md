@@ -1,3 +1,4 @@
+<html>
 ### Project Title - Deploy a high-availability web app using CloudFormation
 Create cloudformation
 	<code>./create.bat CFBaoP2 network.yml network-parameters.json</code>
@@ -31,3 +32,6 @@ Delete stack
 
 ### Output
     <img src="https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png"></img>
+
+
+</html>
