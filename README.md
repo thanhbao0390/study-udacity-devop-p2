@@ -21,16 +21,16 @@ Delete stack
     <code>aws cloudformation delete-stack --stack-name CFBaoP2Web</code>
 
 ### URL
-    ![](http://cfbao-webap-1v5d8i1zi8vr0-1177904550.us-east-1.elb.amazonaws.com/)
+    http://cfbao-webap-1v5d8i1zi8vr0-1177904550.us-east-1.elb.amazonaws.com/
 
 
 ### Architecture
-    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png)
+    https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/InstagramWebApp.png
 
 ### Evidence CloudFormation stack
-    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png)
+    https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/CloudFormation-Stack.png
 
 ### Output
-    ![](https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png)
+    https://raw.githubusercontent.com/thanhbao0390/study-udacity-devop-p2/main/Output.png
 
 
