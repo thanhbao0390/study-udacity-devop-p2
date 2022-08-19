@@ -1,16 +1,4 @@
-ASIA2HTEWAEUKCNR2VOW
-
-V1qs42ND8omW2pm4Z9ch+IAySJZY3WXrjmFS8dH0
-
-FwoGZXIvYXdzECwaDFPQnXkmq/FLq8cEhSLVAUwC8wKinuB8IO6sMlo3erj9T/6ADz2cbdViZlOE7q7TPMtA+BHzl2BkAGez1l+sP1VVCJzObkE3qYiTU+8rdFo1GqOpdLoAouKYS4Eue6zb8SKF8tId1SiAJoDEQuPk1+B8w/maoGd+BYgfS+pyXRIgM4rHDYE5wl4UJXheOmP5T1Exyzp3EBQ2Y2dZHPqq5hdo2yetO3Plqs1+9qxMfIiVTm42D+O74mcMBoQoOYFfVrZCmDZq5mK6ossg8lQk/FqTfxT96XQ9KhqT3X6cVALC+iX9TCiHqNyXBjItw/sh6WsJg/W6cu+TBoUcgn4Dw7ooXWFrevFmPaMeoIOfMa8fDVKcfUUSIGhW
-
-== Acount login 1
-User name	Password	Access key ID	Secret access key	Console login link
-devops-bao-p2		AKIA2HTEWAEUDOZAWQ5N	tSeXHwvH3uu8tDx64MJ+F3BLKZGrjKDIVpuXENOt	https://703512052008.signin.aws.amazon.com/console
-
-
-
-=====================Project 2
+==================Project 2
 
 Create cloudformation
 	./create.bat CFBaoP2 network.yml network-parameters.json
